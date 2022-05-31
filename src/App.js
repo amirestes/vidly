@@ -1,7 +1,19 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import Movies from './movie';
 import './App.css';
 
-function App() {
+class App extends Component {
+  render() {
+    
+    return (
+      <main className="container">
+        <Movies />
+      </main>
+    );
+  }
+}
+
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +32,6 @@ function App() {
       </header>
     </div>
   );
-}
+} */
 
 export default App;
